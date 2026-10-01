@@ -1,5 +1,6 @@
 node_modules
 dist
 .vite
+.tmp-test
 .DS_Store
 *.local
