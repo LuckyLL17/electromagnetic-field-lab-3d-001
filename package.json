@@ -3,6 +3,6 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "scripts": {"dev":"vite","build":"tsc -b && vite build","preview":"vite preview"},
+  "scripts": {"dev":"vite","build":"tsc -b && vite build","preview":"vite preview","test:build":"node test/build-tests.cjs","test":"node test/build-tests.cjs && node --test .test-build/test/"},
   "dependencies": {"@react-three/drei":"latest","@react-three/fiber":"latest","@types/react":"latest","@types/react-dom":"latest","@types/three":"latest","@vitejs/plugin-react":"latest","react":"latest","react-dom":"latest","three":"latest","typescript":"latest","vite":"latest"}
 }
